@@ -1,0 +1,10 @@
+<h1>Tasks#show</h1>
+<p>Find me in app/views/tasks/show.html.erb</p>
+
+<h1><%= @task.name %></h1>
+
+<p><%= @task.description %></p>
+
+<%= link_to "back to all tasks", tasks_path %>
+
+<%= link_to "Edit this task", edit_task_path(@task) %>
